@@ -296,3 +296,5 @@ moquad(mix + rnorm(length(t), mean = 0, sd = 2), c(1200), length(t), log = TRUE)
 ### Simulation Results
 simul(mix, 1, c(30,70,95,125), c(800,1200))
 simul(mix, 2, c(30,70,95,125), c(800,1200))
+
+
