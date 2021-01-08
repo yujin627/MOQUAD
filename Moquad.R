@@ -200,7 +200,7 @@ simul <- function (data, noise, real_cpd, G_vec, nsim = 1000, dothenot = FALSE){
   print.data.frame(moquad_num)
   
   if(dothenot){
-    print("\nSimulation results for the NOT method")
+    print("Simulation results for the NOT method")
     not_res = data.frame(not_dr/nsim*100, not_diff/moquad_dr/100)
     colnames(not_res) = c("Detection Rate (%)", "Average Diff from True Value (s)")
     rownames(not_res) = c(real_cpd/100)
